@@ -1,0 +1,41 @@
+<!DOCTYPE html> 
+<html>
+<head>
+
+<title>Registration-Page</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+<body>
+<jsp:include page="header1.jsp"></jsp:include>
+
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<Center><legend><strong><label>Registration</label></strong></legend></Center>
+
+<form  class="form-container  pd" style="-webkit-box-shadow: 0px 0px 6px 7px rgba(10,4,4,0.65);
+-moz-box-shadow: 0px 0px 6px 7px rgba(10,4,4,0.65);
+box-shadow: 7px 7px 6px 7px rgba(10,4,4,0.65);  padding:50px;">
+<label>Name</label><br>
+<input type="text" placeholder="Enter your Name" id="name" name="name" class="form-control"><br>
+<label>Mobile Number</label><br>
+<input type="number" name="mobile" placeholder="Mobile" id="mobile" name="mobile" class="form-control"><br>
+<label>Email</label><br>
+<input type="email" placeholder="Email" id="email" name="email" class="form-control"><br>
+<label>Password</label>
+<input type="password" placeholder="Password" id="password" name="password" class="form-control"><br>
+<label>Confirm Password</label><br>
+<input type="password" placeholder="Confirm Password" id="confirmp" name="confirm"  class="form-control"><br>
+<input type="submit" class="btn btn-success" onclick="return gett()">
+<input type="reset" class="btn btn-danger" value="Cancel"><br><br>
+
+</form>
+</div>
+</div>
+</div>
+
+<br><br><br>
+<jsp:include page="footer.jsp"></jsp:include>
+
+</body>
+</html>
