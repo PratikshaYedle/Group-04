@@ -1,0 +1,33 @@
+<!DOCTYPE html> 
+<html>
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=ISO-8859-1">
+<title>Login Page</title>
+</head>
+<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.0/css/bootstrap.min.css">
+
+<body>
+<jsp:include page="header1.jsp"></jsp:include>
+
+<div class="container">
+<div class="row">
+<div class="col-md-5">
+<center><legend><strong><label>Login</label></strong></legend></center>
+<form action ="Registration-page.html" method="post" style="-webkit-box-shadow: 0px 0px 6px 7px rgba(10,4,4,0.65);
+-moz-box-shadow: 0px 0px 6px 7px rgba(10,4,4,0.65);
+box-shadow: 7px 7px 6px 7px rgba(10,4,4,0.65);  padding:50px;">
+<label>Email</label>
+<input type="email" name="email" id="email1" placeholder="Enter Your Email" class="form-control"><br>
+<label>Password</label><br>
+<input type="password" name="password" placeholder=" Enter Password" id="password1" class="form-control"><br><br>
+<input type="submit" value="Login" class="form-control btn btn-info" onclick="return Registration-page() "><br><br>
+<input type="submit" value="Registration" class="form-control btn btn-info" onclick="Registration"><br><br>
+`</form>
+</form>
+</div>
+</div>
+</div>
+<br><br><br>
+<jsp:include page="footer.jsp"></jsp:include>
+</body>
+</html>
